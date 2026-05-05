@@ -9,7 +9,7 @@
 
 using namespace std;
 
-void displayForm() {
+void displayMenu() {
     string symb = "1";
     cout<<"Беспилотники включены\n";
     while (symb == "1" || symb == "2") {
@@ -66,6 +66,6 @@ void displayForm() {
 }
 
 int main() {
-    displayForm();
+    displayMenu();
     return 0;
 }
